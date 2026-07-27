@@ -36,7 +36,7 @@ hello-apple-python/
 
 ## 必要環境
 
-- macOS 26.0 以上（Apple Intelligence 対応モデル推奨）
+- macOS 26.0 以上（Apple Intelligence 対応モデル推奨）— **macOS 25（Sequoia）では `fm` CLI は利用できません**
 - Python 3.10 以上
 - `fm` CLI（macOS 26 以降に標準搭載）
 - オプション: Swift / Xcode 26.0+（MLX Swift、Core AI 推論の実行用）

@@ -30,11 +30,13 @@ python3 -m venv venv
 source venv/bin/activate
 ```
 
-4. （実機がある場合）`fm` CLI が使えることを確認
+4. （macOS 26 以降の場合）`fm` CLI が使えることを確認
 
 ```bash
 fm --version
 ```
+
+> **macOS 25（Sequoia）では `fm` CLI は利用できません。** その場合は CLI の例は読み物として参照し、Python SDK のコード例を中心に進めてください。
 
 ## 1. LT 資料を読む
 
