@@ -1,0 +1,27 @@
+[project]
+name = "hello-apple-python"
+version = "0.1.0"
+description = "WWDC 2026 Python ハンズオン教材 — Foundation Models SDK for Python、coreai-torch、MLX Swift の対比"
+readme = "README.md"
+license = { text = "MIT" }
+authors = [
+    { name = "Takuya Nishimoto", email = "nishimotz@gmail.com" },
+]
+keywords = ["wwdc", "apple", "python", "foundation-models", "core-ai", "mlx", "hands-on"]
+classifiers = [
+    "Development Status :: 3 - Alpha",
+    "Intended Audience :: Education",
+    "License :: OSI Approved :: MIT License",
+    "Programming Language :: Python :: 3",
+    "Programming Language :: Python :: 3.10",
+    "Topic :: Education",
+]
+
+[project.urls]
+Homepage = "https://github.com/nishimotz/hello-apple-python"
+Repository = "https://github.com/nishimotz/hello-apple-python"
+Issues = "https://github.com/nishimotz/hello-apple-python/issues"
+
+[build-system]
+requires = ["setuptools>=64"]
+build-backend = "setuptools.build_meta"
