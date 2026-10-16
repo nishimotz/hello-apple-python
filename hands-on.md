@@ -36,7 +36,7 @@ source venv/bin/activate
 fm --version
 ```
 
-> **現行の macOS 26 Tahoe（Darwin 25）では `fm` CLI は利用できません（macOS 27 以降で標準搭載予定）。** CLI の例は読み物として参照し、Python SDK のコード例を中心に進めてください。
+> **macOS 26 Tahoe 以前では `fm` CLI は利用できません（macOS 27 以降で標準搭載）。** CLI の例は読み物として参照し、Python SDK のコード例を中心に進めてください。
 
 ## 1. LT 資料を読む
 
@@ -162,6 +162,6 @@ cat examples/mlx-swift-comparison.md
 | 症状 | 対処 |
 |------|------|
 | `apple-fm-sdk` が見つからない | まだ公開されていない可能性。仮実装で構造だけ確認する。 |
-| `fm` コマンドがない | macOS 27 以降が必要（2026年秋リリース予定）。ハンズオンでは CLI 例の読み込みに留める。 |
+| `fm` コマンドがない | macOS 27 以降が必要。ハンズオンでは CLI 例の読み込みに留める。 |
 | `coreai` が import できない | 現在の環境では未配布の可能性。概念理解に留める。 |
 | Swift コンパイルが面倒 | Python との対比例だけ読んで、雰囲気を掴む。 |

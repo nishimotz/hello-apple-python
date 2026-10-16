@@ -36,9 +36,9 @@ hello-apple-python/
 
 ## 必要環境
 
-- macOS 27.0 以上（Apple Intelligence 対応モデル推奨）— **現行の macOS 26 Tahoe（Darwin 25）では `fm` CLI は利用できません**
+- macOS 27.0 以上（Apple Intelligence 対応モデル推奨）— **macOS 26 Tahoe 以前では `fm` CLI は利用できません**
 - Python 3.10 以上
-- `fm` CLI（macOS 27 以降に標準搭載、2026年秋リリース予定）
+- `fm` CLI（macOS 27 以降に標準搭載）
 - オプション: Swift / Xcode 27.0+（MLX Swift、Core AI 推論の実行用）
 
 > 注意: 発表内容は WWDC 2026 時点のものです。SDK の仕様や配布方法は今後変更になる可能性があります。実際に動かす場合は Apple の公式ドキュメント・GitHub リポジトリを確認してください。
